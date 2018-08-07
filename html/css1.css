@@ -1,0 +1,53 @@
+body{background-image: url("images/12.jpg");background-position: center; 
+background-repeat: no-repeat; background-attachment: scroll; background-size: 100% auto;width:100%;height:1024px;}
+
+.font1{font-family:宋体;font-size:28px;font-style:italic;font-weight:bold;font-variant:small-caps;letter-spacing:2px;word-spacing:10px;
+text-decoration:underline;text-align:center;text-indent:6px;text-transform:lowercase;line-height:150%;}
+.font2{font-family:微软雅黑;font-size:18px;font-style:italic;font-weight:bold;font-variant:small-caps;letter-spacing:1px;word-spacing:2px;
+text-decoration:underline;text-align:center;text-indent:36px;text-transform:lowercase;line-height:150%;color:red;}
+
+.div1{width:1000px;height:250px;borde-width:10px;border-style:solid;border-color:green;}
+.img1{width:400px;height:auto;borde-width:2px;border-style:dashed;border-color:red;width:20%;float:left;margin:10px}
+.filter1{filter:alpha(opacity);filter:blur;filter:chroma(color=#ff0000);filter:dropShadow(corlor=red,offx=2,offy=2,positive=1);
+filter:flipH;filter:flipV;filter:glow;filter:gray;filter:invert;filter:xray;}
+
+.beijing{font-family:华文行楷;font-size:16px;color:green;line-height:150%;background-image:url("images/1.jpg");background-size:80%;background-repeat:no-repeat;
+background-attachment:fixed;background-color:blue;background-position:center;back}
+
+
+.table1{border-color:blue;color:red;background-image:url(images/3.jpg);background-color:gray;borde-width:20px;border-style:dotted;
+border-collapse:separate;border-spacing:2px 3px;caption-side:top;}
+
+
+ul#circle{list-style-type:circle;list-style-image:url(images/4.jpg);list-style-position:inside;}
+ul#square{list-style-type:square;list-style-position:inside;}
+.hezi{borde-width:2px;border-color:red;border-style:solid;padding:1cm;margin:2cm;width:500px;height:auto;}
+
+#test1{margin:5px;padding:5px;width:400px;height:150px;text-align:center;line-height:150%;color:red;background-image:url("images/2.jpg");
+background-size:70% auto;text-overflow:clip;
+border-radius:20px;}
+#test2{margin:5px;padding:5px;width:400px;height:150px;background-image:url("images/2.jpg");background-size:70%;
+border-top-left-radius:15px 20px;
+border-top-right-radius:10px 15px;
+border-bottom-left-radius:9px 13px;
+border-bottom-right-radius:14px 19px;}
+#test3{margin:5px;padding:5px;width:400px;height:150px;background-image:url("images/2.jpg");background-size:70%;
+border-radius:10px 15px 20px 25px;
+resize:horizontal;opacity:0.5;}
+#test4{margin:5px;padding:5px;width:400px;height:150px;background-size:70%;border:10px dashed #930;
+background-image:url("images/2.jpg");background-origin:border-box;resize:vertical;}
+#test5{border:10px red solid;box-shadow:10px -12px  5px gold; 
+overflow-x:scroll;overflow-y:auto;resize:both;text-shadow:green 5px    5px 3px;
+margin:5px;padding:5px;width:400px;height:150px;}
+#test6{margin:5px;padding:5px;width:400px;height:150px;background-size:70%;border:10px dashed rgba(0,0,255,0.5);
+background:-webkit-gradient(linear,left top,right bottom,from(#00ffff),to(#ff0000));}
+#test7{margin:5px;padding:5px;width:400px;height:150px;background-size:70%;border:10px dashed rgba(0,0,255,0.5);
+background:-webkit-gradient(radial,50% 50%,0,50% 50%,50,from(#00ffff),to(#ff0000));}
+#test8{margin:3px;padding:3px;border:red dotted 3px;color:green;width:400px;height:150px;text-overflow:hidden;
+-webkit-columns:150px 2;-webkit-column-gap:4em;-webkit-column-rule-style:dashed;-webkit-column-rule-width:15px;-webkit-column-rule-color:gold;}
+
+#layout{width:1000px;height:auto;margin:20px;padding:20px;border:red solid 5px;
+display:-webkit-box;(-webkit-box-orient:vertical;)}
+#box1{width:300px;height:500px;background-image:url("images/2.jpg");border:green 3px dashed;}
+#box2{width:300px;height:500px;background-image:url("images/3.jpg");border:green 3px dashed;}
+#box3{width:300px;height:500px;background-image:url("images/4.jpg");border:green 3px dashed;}

@@ -1,0 +1,61 @@
+<html>
+<head>
+<meta name="name" content="zengshuai">
+<title>this is javascript</title>
+<style>
+td{border:1px solid gray;padding:3px 5px;}
+</style>
+</head>
+<body>
+<script src="ka.js"></script>
+<input type="button" value="click me" onclick="alert('you clicked on me')" />
+<img src="F:\语言\html\images\2.jpg" alt="fengjing"/ onclick="alert('this is a beautiful picture!')">
+<input type="button" value="do this" onclick="doThis()"/>
+<input type="button" value="do that" onclick="doThat()"/>
+<h1>函数参数调用</h1>
+<input type="button" value="x*x*x" onclick="cube(5)"/>
+<br />
+<input type="button" value="handsor" id="id1" name="zengshuai" onclick="buttonReport(this.id,this.name,this.value)"/>
+<hr color="red">
+<h3>用户交互</h3>
+<script>alert("see you again!");</script>
+<script>confirm("katherine?");</script>
+<script>prompt("what's your full name?","zengshuai");</script>
+<div  id="div1">
+<p>this a scriet</p>
+</div>
+<script>
+var myDiv=document.getElementById("div1").innerHTML;
+myDiv="<p>here is xiugaihou</p>"
+alert(myDiv)
+</script>
+<hr color="red">
+<h3>刷新页面</h3>
+<!--<script>location.reload()</script>-->
+<script>
+document.write("<table>")
+document.write("<tr><td>appname</td><td>"+navigator.appName+"</td></tr>")
+document.write("<tr><td>appcodename</td><td>"+navigator.appCodeName+"</td></tr>")
+document.write("<tr><td>appversion</td><td>"+navigator.appVersion+"</td></tr>")
+document.write("<tr><td>language</td><td>"+navigator.language+"</td></tr>")
+document.write("<tr><td>cookiEnable</td><td>"+navigator.cookiEnable+"</td></tr>")
+document.write("<tr><td>onLine</td><td>"+navigator.onLine+"</td></tr>")
+document.write("<tr><td>platForm</td><td>"+navigator.platForm+"</td></tr>")
+document.write("<tr><td>No ofPlugins</td><td>"+navigator.plugins.length+"</td></tr>")
+document.write("</table>")
+</script>
+<hr color="gray">
+<h3>日期时间对象</h3>
+<script>getTime()</script>
+<hr color="gray">
+<h3>With关键字及Math</h3>
+<script>myfc()</script>
+<h3>字符串</h3>
+<script>myString()</script>
+<h5>字符串连接方法</h5>
+<script>jionString()</script>
+<h5>用户输入侦查字段</h5>
+<script>detectSpam()</script>
+
+</body>
+</html>
